@@ -1,0 +1,82 @@
+body
+{
+    background-color: #caccce;
+}
+.linkedin-icon
+{
+    width: 44px;
+    margin-left: 30px;
+    margin-top: 30px;
+}    
+.center-div
+{
+
+    box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+    border-radius: 8px;
+    background: #fff;
+    width: 27%;
+    height: 420px;
+    margin-top: 29px;
+    margin-left: 34%;
+
+}
+.sighn
+{
+    margin-left: 25px;
+    padding-top: 25px;
+    font-size: 3.2rem;
+    line-height: 1.25;
+    font-weight: 600;
+    color: rgba(0,0,0,0.9);
+    padding: 0 0 4px 0;
+}
+.sighn-p
+{
+    margin-top: -38px;
+    margin-left: 25px;
+    font-weight: normal;
+}
+.Email
+{
+    margin-left: 26px;
+    border-radius: 10px;
+    height: 46px;
+}
+.Forgoat
+{
+    color:blue ;
+}
+.Forgoat
+{
+    color: blue;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.button
+{
+    background: blue;
+    border-radius: 10px;
+    margin-left: 25px;
+    width: 190px;
+    height: 40px;
+    color: #fff;
+}
+.Sign
+{
+    margin-top: 7px;
+}
+.line
+{
+    width: 280px;
+    margin-top: 20px;
+}
+.last
+{
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 2px;
+    padding-left: 40px;
+    color: black;
+}
