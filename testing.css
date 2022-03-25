@@ -1,0 +1,19 @@
+.red
+{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+.green
+{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.parent
+{
+    position: relative;
+}
