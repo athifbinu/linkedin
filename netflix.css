@@ -9,7 +9,7 @@ body{
     background-color: #111;
 
 }
-.row-poster img
+.row-posters 
 {
     width: 100%;
     object-fit: contain;
@@ -20,18 +20,21 @@ body{
 .row-poster 
 {
     display: flex;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    padding: 1px;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+    overflow: scroll;
+    padding: 20px;
 
 }
 .row-poster:hover {
     transform: scale(1.03);
 }
+
 .row-poster::-webkit-scrollbar
 {
     display: none;
 }
+
 .row-posterLarge
 {
    max-height: 250px;
