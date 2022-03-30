@@ -1,19 +1,137 @@
-.red
+*
 {
-    background-color: red;
-    width: 200px;
-    height: 200px;
+    margin: 0;
+    box-sizing: border-box;
+
 }
-.green
+
+
+body
 {
-    background-color: green;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    
+    background-color: black;
+    width: 100%;
 }
-.parent
+.row-posters
 {
+    width: 138px;
+    display: flex;
+    
+}
+.row-poster 
+{
+    display: flex;
+    overflow: hidden;
+}
+.row
+{
+    margin-top: 1%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.row-with-shadow{
+    
+    box-shadow: 0 -33px 40px 6px black;
+}
+ .banner-logo          /*netflix logo and avtahar logo parent div// */ 
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 1;
+
+}
+.netflix-logo  
+{
+    width: 102px;
+    object-fit: contain;
+}
+.netflix-avatar
+{
+    width: 30px;
+    object-fit: contain;
+}
+.banner
+{
+    background-image: url('netflix-images/banner.jpg');
+    background-size: 46em 100%;
+    background-position: -46%;
+    background-repeat: no-repeat;
+    color: white;
+    height: 73vh;
+   
+    width: 100%;
+}
+
+   .banner-buttons        /* button parrent div */ 
+  {
+      height: 20%;
+      width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+  }
+
+  .banner-button
+  {
+    width: 71px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s ease;
+    font-size: 10px;
+    height: 50%;
+    background-color: rgb(139 133 133 / 59%);
+    opacity: 0.8;
+    color: #fff;
+
+  }
+  .banner-button:hover
+  {
+      opacity: 1;
+      cursor: pointer;
+      background-color: #DD0004; 
+      box-shadow:0 0 5px #DD0004,
+                 0 0 20px #DD0004,
+                 0 0 60px #DD0004,
+                 0 0 150px #DD0004;
+  }
+  
+
+.bannner-contants{
     position: relative;
+    width: 30%;
+    top: 12%;
+    left: 8%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+
 }
+.bannner-contants >p{
+    font-size: 10px;
+}
+.bannner-contants > h2{
+    position: relative;
+    bottom: 10%;
+
+}
+
+
+
+
+
+
+
+
+

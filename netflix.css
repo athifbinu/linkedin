@@ -4,125 +4,39 @@
     box-sizing: border-box;
 
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #111;
 
-}
-.row-posters 
+
+body
 {
+    
+    background-color: black;
     width: 100%;
-    object-fit: contain;
-    max-height: 100px;
-    margin-right: 10px;
-   
+}
+.row-posters
+{
+    width: 138px;
+    display: flex;
+    
 }
 .row-poster 
 {
     display: flex;
-    /* overflow-y: scroll;
-    overflow-x: hidden; */
-    overflow: scroll;
-    padding: 20px;
-
-}
-.row-poster:hover {
-    transform: scale(1.03);
-}
-
-.row-poster::-webkit-scrollbar
-{
-    display: none;
-}
-
-.row-posterLarge
-{
-   max-height: 250px;
-   /* width: 100px; */
-
-}
-.row-posterLarge:hover
-{
-    transform: scale(1.09);
+    overflow: hidden;
 }
 .row
 {
-    color: white;
-    margin-left: 20px;
-}
-.banner
-{
-    background-image: url('netflix-images/banner.jpg');
-    background-size: cover;
-    background-position: center center;
-    color: white;
-    object-fit: contain;
-    height: 480px;
-}
-.banner-contents
-{
-    margin-left: 75px;
-    padding-top: 88px;
-    height: 162px;
-}
-.banner-tittle
-{
-    font-size: 3rem;
-    font-weight: 800;
-    padding-bottom: 0.3rem;
-
-}
-.banner-discription
-{
-    width: 57rem;
-    line-height: 1.3;
-    padding-top: 2rem;
-    font-size: 0.8rem;
-    max-width: 360px;
-    height: 180px;
-    margin-left: 63px;
-
-}
-.banner-button
-{
-    cursor: pointer;
+    margin-top: 1%;
     color: #fff;
-    outline: none;
-    border: none;
-    font-weight: 700;
-    border-radius: 0.2vw;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    background-color: rgba(51, 51, 51, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
 }
-.banner-button:hover 
-{
-    color: #000;
-    background-color: #e6e6e6;
-    transition: all 0.2s;
+.row-with-shadow{
+    
+    box-shadow: 0 -33px 40px 6px black;
 }
-.banner-fadebutton
-{
-
-
-    margin-top: -103px;
-    height: 8.4rem;
-    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.61),#111);
-}
-.nav-logo
-{
-    width: 102px;
-    object-fit: contain;
-}
-.nav-avatar
-{
-    width: 30px;
-    object-fit: contain;
-}
-.nav
+ .banner-logo          /*netflix logo and avtahar logo parent div// */ 
 {
     position: fixed;
     top: 0;
@@ -131,11 +45,84 @@ body{
     justify-content: space-between;
     padding: 20px;
     z-index: 1;
-    transition-timing-function: ease-in;
-    transition: all 0.5s;
 
 }
-.nav-black
+.netflix-logo  
 {
-    background-color: #111;
+    width: 102px;
+    object-fit: contain;
+}
+.netflix-avatar
+{
+    width: 30px;
+    object-fit: contain;
+}
+.banner
+{
+    background-image: url('netflix-images/banner.jpg');
+    background-size: 46em 100%;
+    background-position: -46%;
+    background-repeat: no-repeat;
+    color: white;
+    height: 73vh;
+   
+    width: 100%;
+}
+
+   .banner-buttons        /* button parrent div */ 
+  {
+      height: 20%;
+      width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+  }
+
+  .banner-button
+  {
+    width: 71px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s ease;
+    font-size: 10px;
+    height: 50%;
+    background-color: rgb(139 133 133 / 59%);
+    opacity: 0.8;
+    color: #fff;
+
+  }
+  .banner-button:hover
+  {
+      opacity: 1;
+      cursor: pointer;
+      background-color: #DD0004; 
+      box-shadow:0 0 5px #DD0004,
+                 0 0 20px #DD0004,
+                 0 0 60px #DD0004,
+                 0 0 150px #DD0004;
+  }
+  
+
+.bannner-contants{
+    position: relative;
+    width: 30%;
+    top: 12%;
+    left: 8%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+
+}
+.bannner-contants >p{
+    font-size: 10px;
+}
+.bannner-contants > h2{
+    position: relative;
+    bottom: 10%;
+
 }
