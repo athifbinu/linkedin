@@ -72,10 +72,10 @@ body
    .banner-buttons        /* button parrent div */ 
   {
       height: 20%;
-      width: 70%;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+       width: 70%;
+       display: flex;
+       flex-direction: row;
+       gap: 20px;           /*  it is used to create a gap in an eliment  */
    
   }
 
@@ -134,4 +134,15 @@ body
     font-size: 11px;
     margin-top: 10px;
 
+
+}
+.Athif
+{
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 11px;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-left: 3px;
 }
